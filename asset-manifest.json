@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/zodiac/static/css/main.21f047de.css",
+    "main.js": "/zodiac/static/js/main.8a86c5bb.js",
+    "static/js/592.fbe96685.chunk.js": "/zodiac/static/js/592.fbe96685.chunk.js",
+    "static/media/Virgo.png": "/zodiac/static/media/Virgo.455cdc1862c9160d965d.png",
+    "static/media/Aquarius.png": "/zodiac/static/media/Aquarius.9552cbbdc8935c6194f5.png",
+    "static/media/Aries.png": "/zodiac/static/media/Aries.6b06f5e850eef937daaa.png",
+    "static/media/Sagittarius.png": "/zodiac/static/media/Sagittarius.1dcbfe136fa695c90d26.png",
+    "static/media/Capricorn.png": "/zodiac/static/media/Capricorn.b59665edfbd373fbedf8.png",
+    "static/media/Leo.png": "/zodiac/static/media/Leo.90ea12b62baee148f8bd.png",
+    "static/media/Taurus.png": "/zodiac/static/media/Taurus.685e5624899428087258.png",
+    "static/media/Cancer.png": "/zodiac/static/media/Cancer.d1c190af1ff5513883d4.png",
+    "static/media/Scorpio.png": "/zodiac/static/media/Scorpio.b76da69a92d05212b5f5.png",
+    "static/media/Libra.png": "/zodiac/static/media/Libra.83fa957818092627e558.png",
+    "static/media/Pisces.png": "/zodiac/static/media/Pisces.8be751940b16ddde6e27.png",
+    "static/media/Gemini.png": "/zodiac/static/media/Gemini.50f562c4a360c8bbf33a.png",
+    "index.html": "/zodiac/index.html",
+    "main.21f047de.css.map": "/zodiac/static/css/main.21f047de.css.map",
+    "main.8a86c5bb.js.map": "/zodiac/static/js/main.8a86c5bb.js.map",
+    "592.fbe96685.chunk.js.map": "/zodiac/static/js/592.fbe96685.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21f047de.css",
+    "static/js/main.8a86c5bb.js"
+  ]
+}
