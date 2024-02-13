@@ -1,24 +1,45 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import ZodiacInfo from './components/ZodiacInfo';
+import Stars from './components/Stars';
 
 function App() {
+
+
+  const [inputInfo, setInputInfo] = useState(null);
+  const [sign, setSign] = useState(null);
+  const [visible, setVisible] = useState(true);
+
+  const clicked = () => {
+    setSign(inputInfo);
+    setVisible(!visible);
+  }
+
+  
+
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='zodiacContainer'>
+      <h1 onClick={() => setVisible(!visible)}>Your Zodiac</h1>
+      <Stars />
+      {visible ?
+        <div className='greeting'>
+          <p className='greetingQuestion'>Still don't know anything about your stars?</p>
+          <p className='greetingSuggestion'>Let me help you with that!</p>
+          <form>
+            <p>Just enter your birthday</p>
+            <input onChange={(e) => setInputInfo(e.target.value)} type='date'></input>
+          </form>
+          <div onClick={clicked} className='button'>
+            <p>GO MAGIC</p>
+          </div>
+        </div>
+        :
+        <ZodiacInfo info={sign} />
+      }
     </div>
+
   );
 }
 
